@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+  <session-factory>
+    <!-- Log queries ...for testing purpose only, disable this in production -->
+    <!--   
+    <property name="hibernate.show_sql">true</property>
+    -->
+    <!-- Use the C3P0 connection pool. -->
+    <property name="c3p0.min_size">3</property>
+    <property name="c3p0.max_size">5</property>
+    <property name="c3p0.timeout">1800</property>
+    <property name="hibernate.current_session_context_class">thread</property>
+    <!-- Used only for development. DISABLE it for production installation -->
+    <!--
+    <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
+    <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+    <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/semlibStorage?useUnicode=true&amp;characterEncoding=utf8&amp;autoReconnect=true</property>
+    <property name="hibernate.connection.username">semlibAs</property>
+    <property name="hibernate.connection.password">8hRweQjuny8V9MfY</property>            
+    -->
+    <mapping resource="eu/semlibproject/annotationserver/hibernate/Userdata.hbm.xml"/>
+    <mapping resource="eu/semlibproject/annotationserver/hibernate/Activenotebooks.hbm.xml"/>
+    <mapping resource="eu/semlibproject/annotationserver/hibernate/Currentnotebooks.hbm.xml"/>
+    <mapping resource="eu/semlibproject/annotationserver/hibernate/Notebooks.hbm.xml"/>
+    <mapping resource="eu/semlibproject/annotationserver/hibernate/Annotations.hbm.xml"/>
+    <mapping resource="eu/semlibproject/annotationserver/hibernate/Permissions.hbm.xml"/>
+    <mapping resource="eu/semlibproject/annotationserver/hibernate/Admins.hbm.xml"/>
+    <mapping resource="eu/semlibproject/annotationserver/hibernate/Emails.hbm.xml"/>
+  </session-factory>
+</hibernate-configuration>

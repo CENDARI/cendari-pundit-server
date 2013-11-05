@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 25-set-2012 10.31.35 by Hibernate Tools 3.2.1.GA -->
+<hibernate-mapping>
+    <class name="eu.semlibproject.annotationserver.hibernate.Emails" table="emails" catalog="semlibStorage">
+        <id name="id" type="java.lang.Integer">
+            <column name="id" />
+            <generator class="identity" />
+        </id>
+        <property name="label" type="string">
+            <column name="label" length="40" not-null="true" />
+        </property>
+        <property name="receivers" type="string">
+           <column name="receivers" not-null="true" />
+        </property>
+    </class>
+</hibernate-mapping>

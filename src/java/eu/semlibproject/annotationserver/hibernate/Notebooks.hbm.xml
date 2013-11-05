@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 25-set-2012 10.31.35 by Hibernate Tools 3.2.1.GA -->
+<hibernate-mapping>
+    <class name="eu.semlibproject.annotationserver.hibernate.Notebooks" table="notebooks" catalog="semlibStorage">
+        <id name="id" type="string">
+            <column name="id" length="40" />
+            <generator class="assigned" />
+        </id>
+        <property name="ownerid" type="string">
+            <column name="ownerid" length="40" not-null="true" />
+        </property>
+        <property name="public_" type="boolean">
+            <column name="public" not-null="true" />
+        </property>
+        <set name="annotationses" inverse="true">
+            <key>
+                <column name="notebookid" length="40" not-null="true" />
+            </key>
+            <one-to-many class="eu.semlibproject.annotationserver.hibernate.Annotations" />
+        </set>
+        <set name="currentnotebookses" inverse="true">
+            <key>
+                <column name="currentnotebook" length="40" not-null="true" />
+            </key>
+            <one-to-many class="eu.semlibproject.annotationserver.hibernate.Currentnotebooks" />
+        </set>
+        <set name="permissionses" inverse="true">
+            <key>
+                <column name="notebookid" length="40" not-null="true" />
+            </key>
+            <one-to-many class="eu.semlibproject.annotationserver.hibernate.Permissions" />
+        </set>
+        <set name="activenotebookses" inverse="true">
+            <key>
+                <column name="notebookid" length="40" not-null="true" />
+            </key>
+            <one-to-many class="eu.semlibproject.annotationserver.hibernate.Activenotebooks" />
+        </set>
+    </class>
+</hibernate-mapping>

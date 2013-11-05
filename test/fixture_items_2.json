@@ -1,0 +1,88 @@
+{
+    "http://dbpedia.org/resource/Biodiversity": {
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "value": "Biodiversity",
+                "type": "literal"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#altLabel": [
+            {
+                "value": "Biodiversity",
+                "type": "literal"
+            }
+        ],
+        "http://purl.org/dc/elements/1.1/description": [
+            {
+                "value": "Biodiversity is the degree of variation of life forms within a given species, ecosystem, biome, or an entire planet. Biodiversity is a measure of the health of ecosystems. Biodiversity is in part a function of climate. In terrestrial habitats, tropical regions are typically rich whereas polar regions support fewer species. Rapid environmental changes typically cause mass extinctions. One estimate is that less than 1% of the species that have existed on Earth are extant.",
+                "type": "literal"
+            }
+        ],
+        "http://xmlns.com/foaf/0.1/depiction": [
+            {
+                "value": "http://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Blue_Linckia_Starfish.JPG/200px-Blue_Linckia_Starfish.JPG",
+                "type": "literal"
+            }
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            {
+                "value": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "type": "uri"
+            }
+        ]
+    },
+    "http://www.w3.org/2000/01/rdf-schema#Resource": {
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "value": "Resource",
+                "type": "literal"
+            }
+        ]
+    },
+    "http://en.wikipedia.org/wiki/Civet#xpointer(start-point(string-range(//BODY/DIV[3]/DIV[3]/DIV[4]/P[1]/text()[1],'',0))/range-to(string-range(//BODY/DIV[3]/DIV[3]/DIV[4]/P[2]/A[3],'',52)))": {
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "value": "A civet ([img: 11px-Loudspeaker.svg.png] /ˈsɪvɨt/) ..",
+                "type": "literal"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#altLabel": [
+            {
+                "value": "A civet ([img: 11px-Loudspeaker.svg.png] /ˈsɪvɨt/) ..",
+                "type": "literal"
+            }
+        ],
+        "http://purl.org/dc/elements/1.1/description": [
+            {
+                "value": "A civet ([img: 11px-Loudspeaker.svg.png] /ˈsɪvɨt/) is a small, lithe-bodied, mostly nocturnal mammal native to tropical Asia and Africa, especially the tropical forests. The term civet applies to over a dozen different mammal species. Most of the species diversity is found in southeast Asia. The best-known civet species is the African Civet, Civettictis civetta, which historically has been the main species from which was obtained a musky scent used in perfumery. The word civet may also refer to the distinctive musky scent produced by the animals.\nCivets are also called \"toddycats\" in English and \"musang\" in Malay. The latter may lead to some confusion as \"musang\" also refers to foxes, but civets are more commonly encountered by humans",
+                "type": "literal"
+            }
+        ],
+        "http://purl.org/pundit/ont/ao#hasPageContext": [
+            {
+                "value": "http://en.wikipedia.org/wiki/Civet",
+                "type": "uri"
+            }
+        ],
+        "http://purl.org/dc/terms/isPartOf": [
+            {
+                "value": "http://en.wikipedia.org/wiki/Civet",
+                "type": "uri"
+            }
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            {
+                "value": "http://purl.org/pundit/ont/ao#fragment-text",
+                "type": "uri"
+            }
+        ]
+    },
+    "http://purl.org/pundit/ont/ao#fragment-text": {
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "value": "Page fragment",
+                "type": "literal"
+            }
+        ]
+    }
+}

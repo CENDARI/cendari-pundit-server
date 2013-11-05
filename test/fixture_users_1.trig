@@ -1,0 +1,14 @@
+@prefix tags: <http://www.holygoat.co.uk/owl/redwood/0.1/tags/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+<http://swickynotes.org/notebook/resource/usersGraph> {
+	<http://swickynotes.org/notebook/resource/84c72ac8> a <http://xmlns.com/foaf/0.1/Person> ;
+		<http://xmlns.com/foaf/0.1/openid> <http://www.google.com/profiles/mik.nucci> ;
+		<http://xmlns.com/foaf/0.1/familyName> "Nucci" ;
+		<http://xmlns.com/foaf/0.1/givenName> "Michele" ;
+		<http://xmlns.com/foaf/0.1/name> "Michele Nucci" ;
+		<http://xmlns.com/foaf/0.1/mbox> <mailto:mik.nucci@gmail.com> ;
+		<http://xmlns.com/foaf/0.1/sha1sum> "908a058dbd86f3964b9a044d686fab916b661bae" .
+}

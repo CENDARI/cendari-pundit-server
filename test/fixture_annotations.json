@@ -1,0 +1,20 @@
+{
+    "http://it.wikipedia.org/wiki/Roma": {
+        "http://www.holygoat.co.uk/owl/redwood/0.1/tags/hasTag": [
+            {
+                "value": "Capital City",
+                "type": "literal"
+            },
+            {
+                "value": "Italy",
+                "type": "literal"
+            },
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#comment": [
+            {
+                "value": "Wikipedia's page dedicate to Rome, the capital city of Italy.",
+                "type": "literal"
+            }
+        ]
+    }
+}

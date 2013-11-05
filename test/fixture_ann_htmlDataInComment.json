@@ -1,0 +1,1558 @@
+{
+    "http://metasound.dibet.univpm.it/release_bot/build/examples/ariosto-1.html#xpointer(start-point(string-range(//DIV[@about='http://metasound.dibet.univpm.it/release_bot/build/examples/ariosto-1.html']/DIV[1]/P[2]/B[1]/text()[1],'',1))/range-to(string-range(//DIV[@about='http://metasound.dibet.univpm.it/release_bot/build/examples/ariosto-1.html']/DIV[1]/P[2]/text()[8],'',20)))": {
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            {
+                "value": "http://www.semlibproject.eu/vocab/text-fragment",
+                "type": "uri"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "value": "udovico Ariosto (8 S ..",
+                "type": "literal"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#altLabel": [
+            {
+                "value": "udovico Ariosto (8 S ..",
+                "type": "literal"
+            }
+        ],
+        "http://purl.org/dc/elements/1.1/description": [
+            {
+                "value": "udovico Ariosto (8 September 1474 – 6 July 1533) was an Italian poet. He is best known as the author of the romance epic Orlando Furioso (1516). The poem, a continuation of Matteo Maria Boiardo's Orlando Innamorato, describes the adve",
+                "type": "literal"
+            }
+        ],
+        "http://purl.org/swickynotes/ao/v1#hasPageContext": [
+            {
+                "value": "http://localhost/~marco/SemlibClient/web/semlibclient/examples/authors_ariosto.html",
+                "type": "uri"
+            }
+        ],
+        "http://purl.org/dc/terms/isPartOf": [
+            {
+                "value": "http://metasound.dibet.univpm.it/release_bot/build/examples/ariosto-1.html",
+                "type": "uri"
+            }
+        ],
+        "http://www.semlibproject.eu/vocab/relations/hasComment": [
+            {
+                "value": "<a about=\"http://dbpedia.org/resource/Pippo_Baudo\" href=\"http://dbpedia.org/resource/Pippo_Baudo\" target=\"_blank\">Pippo Baudo</a> is a <a about=\"http://dbpedia.org/resource/Friendship\" href=\"http://dbpedia.org/resource/Friendship\" target=\"_blank\">friend</a> ok <a about=\"http://dbpedia.org/resource/Barack_Obama\" href=\"http://dbpedia.org/resource/Barack_Obama\" target=\"_blank\">barack obama</a>, they both participeted in <a about=\"http://dbpedia.org/resource/Sanremo_Music_Festival\" href=\"http://dbpedia.org/resource/Sanremo_Music_Festival\" target=\"_blank\">Sanremo festival</a> where Obama <a about=\"http://dbpedia.org/resource/Sing_%28The_Carpenters_song%29\" href=\"http://dbpedia.org/resource/Sing_%28The_Carpenters_song%29\" target=\"_blank\">sing</a> the <a about=\"http://dbpedia.org/resource/1997_in_music\" href=\"http://dbpedia.org/resource/1997_in_music\" target=\"_blank\">song</a> my way by <a about=\"http://dbpedia.org/resource/Frank_Sinatra,_Jr.\" href=\"http://dbpedia.org/resource/Frank_Sinatra,_Jr.\" target=\"_blank\">Sinatra</a>",
+                "type": "literal"
+            }
+        ],
+        "http://www.holygoat.co.uk/owl/redwood/0.1/tags/hasTag": [
+            {
+                "value": "http://dbpedia.org/resource/Pippo_Baudo",
+                "type": "uri"
+            },
+            {
+                "value": "http://dbpedia.org/resource/Friendship",
+                "type": "uri"
+            },
+            {
+                "value": "http://dbpedia.org/resource/Barack_Obama",
+                "type": "uri"
+            },
+            {
+                "value": "http://dbpedia.org/resource/Sanremo_Music_Festival",
+                "type": "uri"
+            },
+            {
+                "value": "http://dbpedia.org/resource/Sing_%28The_Carpenters_song%29",
+                "type": "uri"
+            },
+            {
+                "value": "http://dbpedia.org/resource/1997_in_music",
+                "type": "uri"
+            },
+            {
+                "value": "http://dbpedia.org/resource/Frank_Sinatra,_Jr.",
+                "type": "uri"
+            }
+        ]
+    },
+    "http://dbpedia.org/resource/Pippo_Baudo": {
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "value": "Pippo Baudo",
+                "type": "literal"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#altLabel": [
+            {
+                "value": "Pippo Baudo",
+                "type": "literal"
+            }
+        ],
+        "http://purl.org/dc/elements/1.1/description": [
+            {
+                "value": "Giuseppe Baudo (Militello in Val di Catania, 7 June 1936), known as Pippo Baudo, is a popular Italian television presenter. He is often referred to as \"Superpippo\". Baudo has also been the artistic director and president of Teatro Stabile di Catania.",
+                "type": "literal"
+            }
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            {
+                "value": "http://www.freebase.com/schema/film/person_or_entity_appearing_in_film",
+                "type": "uri"
+            },
+            {
+                "value": "http://www.freebase.com/schema/film",
+                "type": "uri"
+            },
+            {
+                "value": "http://www.freebase.com/schema/people/person",
+                "type": "uri"
+            },
+            {
+                "value": "http://www.freebase.com/schema/people",
+                "type": "uri"
+            }
+        ]
+    },
+    "http://www.freebase.com/schema/film/person_or_entity_appearing_in_film": {
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "value": "person_or_entity_appearing_in_film",
+                "type": "uri"
+            },
+            {
+                "value": "person_or_entity_appearing_in_film",
+                "type": "uri"
+            },
+            {
+                "value": "person_or_entity_appearing_in_film",
+                "type": "uri"
+            }
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            {
+                "value": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "type": "uri"
+            },
+            {
+                "value": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "type": "uri"
+            },
+            {
+                "value": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "type": "uri"
+            }
+        ]
+    },
+    "http://www.freebase.com/schema/film": {
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "value": "film",
+                "type": "uri"
+            },
+            {
+                "value": "film",
+                "type": "uri"
+            },
+            {
+                "value": "film",
+                "type": "uri"
+            }
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            {
+                "value": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "type": "uri"
+            },
+            {
+                "value": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "type": "uri"
+            },
+            {
+                "value": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "type": "uri"
+            }
+        ]
+    },
+    "http://www.freebase.com/schema/people/person": {
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "value": "person",
+                "type": "uri"
+            },
+            {
+                "value": "person",
+                "type": "uri"
+            },
+            {
+                "value": "person",
+                "type": "uri"
+            }
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            {
+                "value": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "type": "uri"
+            },
+            {
+                "value": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "type": "uri"
+            },
+            {
+                "value": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "type": "uri"
+            }
+        ]
+    },
+    "http://www.freebase.com/schema/people": {
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "value": "people",
+                "type": "uri"
+            },
+            {
+                "value": "people",
+                "type": "uri"
+            },
+            {
+                "value": "people",
+                "type": "uri"
+            }
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            {
+                "value": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "type": "uri"
+            },
+            {
+                "value": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "type": "uri"
+            },
+            {
+                "value": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "type": "uri"
+            }
+        ]
+    },
+    "http://dbpedia.org/resource/Friendship": {
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "value": "Friendship",
+                "type": "literal"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#altLabel": [
+            {
+                "value": "Friendship",
+                "type": "literal"
+            }
+        ],
+        "http://purl.org/dc/elements/1.1/description": [
+            {
+                "value": "Friendship is a form of interpersonal relationship generally considered to be closer than association, although there is a range of degrees of intimacy in both friendships and associations. Friendship and association can be thought of as spanning across the same continuum. The study of friendship is included in the fields of sociology, social psychology, anthropology, philosophy, and zoology.",
+                "type": "literal"
+            }
+        ],
+        "http://xmlns.com/foaf/0.1/depiction": [
+            {
+                "value": "http://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Friendship_2.jpg/200px-Friendship_2.jpg",
+                "type": "literal"
+            }
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            {
+                "value": "http://www.freebase.com/schema/book/book_subject",
+                "type": "uri"
+            },
+            {
+                "value": "http://www.freebase.com/schema/book",
+                "type": "uri"
+            }
+        ]
+    },
+    "http://www.freebase.com/schema/book/book_subject": {
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "value": "book_subject",
+                "type": "uri"
+            },
+            {
+                "value": "book_subject",
+                "type": "uri"
+            }
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            {
+                "value": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "type": "uri"
+            },
+            {
+                "value": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "type": "uri"
+            }
+        ]
+    },
+    "http://www.freebase.com/schema/book": {
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "value": "book",
+                "type": "uri"
+            },
+            {
+                "value": "book",
+                "type": "uri"
+            }
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            {
+                "value": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "type": "uri"
+            },
+            {
+                "value": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "type": "uri"
+            }
+        ]
+    },
+    "http://dbpedia.org/resource/Barack_Obama": {
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "value": "Barack Obama",
+                "type": "literal"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#altLabel": [
+            {
+                "value": "Barack Obama",
+                "type": "literal"
+            }
+        ],
+        "http://purl.org/dc/elements/1.1/description": [
+            {
+                "value": "Barack Hussein Obama II is the 44th and current President of the United States. He is the first African American to hold the office. Obama previously served as a United States Senator from Illinois, from January 2005 until he resigned following his victory in the 2008 presidential election. Born in Honolulu, Hawaii, Obama is a graduate of Columbia University and Harvard Law School, where he was the president of the Harvard Law Review.",
+                "type": "literal"
+            }
+        ],
+        "http://xmlns.com/foaf/0.1/depiction": [
+            {
+                "value": "http://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Official_portrait_of_Barack_Obama.jpg/200px-Official_portrait_of_Barack_Obama.jpg",
+                "type": "literal"
+            }
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            {
+                "value": "http://dbpedia.org/ontology/OfficeHolder",
+                "type": "uri"
+            },
+            {
+                "value": "http://dbpedia.org/ontology/Person",
+                "type": "uri"
+            },
+            {
+                "value": "http://schema.org/Person",
+                "type": "uri"
+            },
+            {
+                "value": "http://www.freebase.com/schema/business/employer",
+                "type": "uri"
+            },
+            {
+                "value": "http://www.freebase.com/schema/business",
+                "type": "uri"
+            },
+            {
+                "value": "http://www.freebase.com/schema/people/person",
+                "type": "uri"
+            },
+            {
+                "value": "http://www.freebase.com/schema/people",
+                "type": "uri"
+            },
+            {
+                "value": "http://www.freebase.com/schema/architecture/building_occupant",
+                "type": "uri"
+            },
+            {
+                "value": "http://www.freebase.com/schema/architecture",
+                "type": "uri"
+            },
+            {
+                "value": "http://www.freebase.com/schema/event/public_speaker",
+                "type": "uri"
+            },
+            {
+                "value": "http://www.freebase.com/schema/event",
+                "type": "uri"
+            },
+            {
+                "value": "http://www.freebase.com/schema/media_common/quotation_subject",
+                "type": "uri"
+            },
+            {
+                "value": "http://www.freebase.com/schema/media_common",
+                "type": "uri"
+            },
+            {
+                "value": "http://www.freebase.com/schema/book/book_subject",
+                "type": "uri"
+            },
+            {
+                "value": "http://www.freebase.com/schema/book",
+                "type": "uri"
+            },
+            {
+                "value": "http://www.freebase.com/schema/government/political_appointer",
+                "type": "uri"
+            },
+            {
+                "value": "http://www.freebase.com/schema/government",
+                "type": "uri"
+            },
+            {
+                "value": "http://www.freebase.com/schema/film/film_subject",
+                "type": "uri"
+            },
+            {
+                "value": "http://www.freebase.com/schema/film",
+                "type": "uri"
+            },
+            {
+                "value": "http://www.freebase.com/schema/fictional_universe/person_in_fiction",
+                "type": "uri"
+            },
+            {
+                "value": "http://www.freebase.com/schema/fictional_universe",
+                "type": "uri"
+            },
+            {
+                "value": "http://www.freebase.com/schema/internet/social_network_user",
+                "type": "uri"
+            },
+            {
+                "value": "http://www.freebase.com/schema/internet",
+                "type": "uri"
+            },
+            {
+                "value": "http://www.freebase.com/schema/tv/tv_actor",
+                "type": "uri"
+            },
+            {
+                "value": "http://www.freebase.com/schema/tv",
+                "type": "uri"
+            },
+            {
+                "value": "http://www.freebase.com/schema/government/us_president",
+                "type": "uri"
+            },
+            {
+                "value": "http://www.freebase.com/schema/tv/tv_character",
+                "type": "uri"
+            },
+            {
+                "value": "http://www.freebase.com/schema/people/measured_person",
+                "type": "uri"
+            },
+            {
+                "value": "http://www.freebase.com/schema/award/award_winner",
+                "type": "uri"
+            },
+            {
+                "value": "http://www.freebase.com/schema/award",
+                "type": "uri"
+            },
+            {
+                "value": "http://www.freebase.com/schema/book/author",
+                "type": "uri"
+            },
+            {
+                "value": "http://www.freebase.com/schema/award/ranked_item",
+                "type": "uri"
+            },
+            {
+                "value": "http://www.freebase.com/schema/music/artist",
+                "type": "uri"
+            },
+            {
+                "value": "http://www.freebase.com/schema/music",
+                "type": "uri"
+            },
+            {
+                "value": "http://www.freebase.com/schema/government/politician",
+                "type": "uri"
+            },
+            {
+                "value": "http://www.freebase.com/schema/people/appointer",
+                "type": "uri"
+            },
+            {
+                "value": "http://www.freebase.com/schema/film/person_or_entity_appearing_in_film",
+                "type": "uri"
+            },
+            {
+                "value": "http://www.freebase.com/schema/organization/organization_member",
+                "type": "uri"
+            },
+            {
+                "value": "http://www.freebase.com/schema/organization",
+                "type": "uri"
+            },
+            {
+                "value": "http://www.freebase.com/schema/government/u_s_congressperson",
+                "type": "uri"
+            },
+            {
+                "value": "http://www.freebase.com/schema/broadcast/producer",
+                "type": "uri"
+            },
+            {
+                "value": "http://www.freebase.com/schema/broadcast",
+                "type": "uri"
+            },
+            {
+                "value": "http://www.freebase.com/schema/book/book_character",
+                "type": "uri"
+            },
+            {
+                "value": "http://www.freebase.com/schema/celebrities/celebrity",
+                "type": "uri"
+            },
+            {
+                "value": "http://www.freebase.com/schema/celebrities",
+                "type": "uri"
+            },
+            {
+                "value": "http://www.freebase.com/schema/visual_art/art_subject",
+                "type": "uri"
+            },
+            {
+                "value": "http://www.freebase.com/schema/visual_art",
+                "type": "uri"
+            }
+        ]
+    },
+    "http://dbpedia.org/ontology/OfficeHolder": {
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "value": "OfficeHolder",
+                "type": "uri"
+            }
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            {
+                "value": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "type": "uri"
+            }
+        ]
+    },
+    "http://dbpedia.org/ontology/Person": {
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "value": "Person",
+                "type": "uri"
+            },
+            {
+                "value": "Person",
+                "type": "uri"
+            }
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            {
+                "value": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "type": "uri"
+            },
+            {
+                "value": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "type": "uri"
+            }
+        ]
+    },
+    "http://schema.org/Person": {
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "value": "Person",
+                "type": "uri"
+            },
+            {
+                "value": "Person",
+                "type": "uri"
+            }
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            {
+                "value": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "type": "uri"
+            },
+            {
+                "value": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "type": "uri"
+            }
+        ]
+    },
+    "http://www.freebase.com/schema/business/employer": {
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "value": "employer",
+                "type": "uri"
+            }
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            {
+                "value": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "type": "uri"
+            }
+        ]
+    },
+    "http://www.freebase.com/schema/business": {
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "value": "business",
+                "type": "uri"
+            }
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            {
+                "value": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "type": "uri"
+            }
+        ]
+    },
+    "http://www.freebase.com/schema/architecture/building_occupant": {
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "value": "building_occupant",
+                "type": "uri"
+            }
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            {
+                "value": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "type": "uri"
+            }
+        ]
+    },
+    "http://www.freebase.com/schema/architecture": {
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "value": "architecture",
+                "type": "uri"
+            }
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            {
+                "value": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "type": "uri"
+            }
+        ]
+    },
+    "http://www.freebase.com/schema/event/public_speaker": {
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "value": "public_speaker",
+                "type": "uri"
+            }
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            {
+                "value": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "type": "uri"
+            }
+        ]
+    },
+    "http://www.freebase.com/schema/event": {
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "value": "event",
+                "type": "uri"
+            }
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            {
+                "value": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "type": "uri"
+            }
+        ]
+    },
+    "http://www.freebase.com/schema/media_common/quotation_subject": {
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "value": "quotation_subject",
+                "type": "uri"
+            }
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            {
+                "value": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "type": "uri"
+            }
+        ]
+    },
+    "http://www.freebase.com/schema/media_common": {
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "value": "media_common",
+                "type": "uri"
+            }
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            {
+                "value": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "type": "uri"
+            }
+        ]
+    },
+    "http://www.freebase.com/schema/government/political_appointer": {
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "value": "political_appointer",
+                "type": "uri"
+            }
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            {
+                "value": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "type": "uri"
+            }
+        ]
+    },
+    "http://www.freebase.com/schema/government": {
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "value": "government",
+                "type": "uri"
+            }
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            {
+                "value": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "type": "uri"
+            }
+        ]
+    },
+    "http://www.freebase.com/schema/film/film_subject": {
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "value": "film_subject",
+                "type": "uri"
+            }
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            {
+                "value": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "type": "uri"
+            }
+        ]
+    },
+    "http://www.freebase.com/schema/fictional_universe/person_in_fiction": {
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "value": "person_in_fiction",
+                "type": "uri"
+            }
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            {
+                "value": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "type": "uri"
+            }
+        ]
+    },
+    "http://www.freebase.com/schema/fictional_universe": {
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "value": "fictional_universe",
+                "type": "uri"
+            }
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            {
+                "value": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "type": "uri"
+            }
+        ]
+    },
+    "http://www.freebase.com/schema/internet/social_network_user": {
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "value": "social_network_user",
+                "type": "uri"
+            }
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            {
+                "value": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "type": "uri"
+            }
+        ]
+    },
+    "http://www.freebase.com/schema/internet": {
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "value": "internet",
+                "type": "uri"
+            }
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            {
+                "value": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "type": "uri"
+            }
+        ]
+    },
+    "http://www.freebase.com/schema/tv/tv_actor": {
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "value": "tv_actor",
+                "type": "uri"
+            },
+            {
+                "value": "tv_actor",
+                "type": "uri"
+            }
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            {
+                "value": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "type": "uri"
+            },
+            {
+                "value": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "type": "uri"
+            }
+        ]
+    },
+    "http://www.freebase.com/schema/tv": {
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "value": "tv",
+                "type": "uri"
+            },
+            {
+                "value": "tv",
+                "type": "uri"
+            }
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            {
+                "value": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "type": "uri"
+            },
+            {
+                "value": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "type": "uri"
+            }
+        ]
+    },
+    "http://www.freebase.com/schema/government/us_president": {
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "value": "us_president",
+                "type": "uri"
+            }
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            {
+                "value": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "type": "uri"
+            }
+        ]
+    },
+    "http://www.freebase.com/schema/tv/tv_character": {
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "value": "tv_character",
+                "type": "uri"
+            }
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            {
+                "value": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "type": "uri"
+            }
+        ]
+    },
+    "http://www.freebase.com/schema/people/measured_person": {
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "value": "measured_person",
+                "type": "uri"
+            }
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            {
+                "value": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "type": "uri"
+            }
+        ]
+    },
+    "http://www.freebase.com/schema/award/award_winner": {
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "value": "award_winner",
+                "type": "uri"
+            }
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            {
+                "value": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "type": "uri"
+            }
+        ]
+    },
+    "http://www.freebase.com/schema/award": {
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "value": "award",
+                "type": "uri"
+            }
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            {
+                "value": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "type": "uri"
+            }
+        ]
+    },
+    "http://www.freebase.com/schema/book/author": {
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "value": "author",
+                "type": "uri"
+            }
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            {
+                "value": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "type": "uri"
+            }
+        ]
+    },
+    "http://www.freebase.com/schema/award/ranked_item": {
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "value": "ranked_item",
+                "type": "uri"
+            }
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            {
+                "value": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "type": "uri"
+            }
+        ]
+    },
+    "http://www.freebase.com/schema/music/artist": {
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "value": "artist",
+                "type": "uri"
+            },
+            {
+                "value": "artist",
+                "type": "uri"
+            }
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            {
+                "value": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "type": "uri"
+            },
+            {
+                "value": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "type": "uri"
+            }
+        ]
+    },
+    "http://www.freebase.com/schema/music": {
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "value": "music",
+                "type": "uri"
+            },
+            {
+                "value": "music",
+                "type": "uri"
+            },
+            {
+                "value": "music",
+                "type": "uri"
+            },
+            {
+                "value": "music",
+                "type": "uri"
+            }
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            {
+                "value": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "type": "uri"
+            },
+            {
+                "value": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "type": "uri"
+            },
+            {
+                "value": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "type": "uri"
+            },
+            {
+                "value": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "type": "uri"
+            }
+        ]
+    },
+    "http://www.freebase.com/schema/government/politician": {
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "value": "politician",
+                "type": "uri"
+            }
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            {
+                "value": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "type": "uri"
+            }
+        ]
+    },
+    "http://www.freebase.com/schema/people/appointer": {
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "value": "appointer",
+                "type": "uri"
+            }
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            {
+                "value": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "type": "uri"
+            }
+        ]
+    },
+    "http://www.freebase.com/schema/organization/organization_member": {
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "value": "organization_member",
+                "type": "uri"
+            }
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            {
+                "value": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "type": "uri"
+            }
+        ]
+    },
+    "http://www.freebase.com/schema/organization": {
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "value": "organization",
+                "type": "uri"
+            }
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            {
+                "value": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "type": "uri"
+            }
+        ]
+    },
+    "http://www.freebase.com/schema/government/u_s_congressperson": {
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "value": "u_s_congressperson",
+                "type": "uri"
+            }
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            {
+                "value": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "type": "uri"
+            }
+        ]
+    },
+    "http://www.freebase.com/schema/broadcast/producer": {
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "value": "producer",
+                "type": "uri"
+            }
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            {
+                "value": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "type": "uri"
+            }
+        ]
+    },
+    "http://www.freebase.com/schema/broadcast": {
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "value": "broadcast",
+                "type": "uri"
+            }
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            {
+                "value": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "type": "uri"
+            }
+        ]
+    },
+    "http://www.freebase.com/schema/book/book_character": {
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "value": "book_character",
+                "type": "uri"
+            }
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            {
+                "value": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "type": "uri"
+            }
+        ]
+    },
+    "http://www.freebase.com/schema/celebrities/celebrity": {
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "value": "celebrity",
+                "type": "uri"
+            }
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            {
+                "value": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "type": "uri"
+            }
+        ]
+    },
+    "http://www.freebase.com/schema/celebrities": {
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "value": "celebrities",
+                "type": "uri"
+            }
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            {
+                "value": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "type": "uri"
+            }
+        ]
+    },
+    "http://www.freebase.com/schema/visual_art/art_subject": {
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "value": "art_subject",
+                "type": "uri"
+            }
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            {
+                "value": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "type": "uri"
+            }
+        ]
+    },
+    "http://www.freebase.com/schema/visual_art": {
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "value": "visual_art",
+                "type": "uri"
+            }
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            {
+                "value": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "type": "uri"
+            }
+        ]
+    },
+    "http://dbpedia.org/resource/Sanremo_Music_Festival": {
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "value": "Sanremo Music Festival",
+                "type": "literal"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#altLabel": [
+            {
+                "value": "Sanremo Music Festival",
+                "type": "literal"
+            }
+        ],
+        "http://purl.org/dc/elements/1.1/description": [
+            {
+                "value": "The Festival della canzone italiana di Sanremo is a popular Italian song contest running since 1951 and held annually from Teatro Ariston in the city of Sanremo, Italy. Usually referred to as Festival di Sanremo, or outside Italy as Sanremo Music Festival, it was the inspiration for the Eurovision Song Contest.",
+                "type": "literal"
+            }
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            {
+                "value": "http://www.freebase.com/schema/music/festival",
+                "type": "uri"
+            },
+            {
+                "value": "http://www.freebase.com/schema/music",
+                "type": "uri"
+            },
+            {
+                "value": "http://www.freebase.com/schema/time/recurring_event",
+                "type": "uri"
+            },
+            {
+                "value": "http://www.freebase.com/schema/time",
+                "type": "uri"
+            }
+        ]
+    },
+    "http://www.freebase.com/schema/music/festival": {
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "value": "festival",
+                "type": "uri"
+            }
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            {
+                "value": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "type": "uri"
+            }
+        ]
+    },
+    "http://www.freebase.com/schema/time/recurring_event": {
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "value": "recurring_event",
+                "type": "uri"
+            }
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            {
+                "value": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "type": "uri"
+            }
+        ]
+    },
+    "http://www.freebase.com/schema/time": {
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "value": "time",
+                "type": "uri"
+            }
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            {
+                "value": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "type": "uri"
+            }
+        ]
+    },
+    "http://dbpedia.org/resource/Sing_%28The_Carpenters_song%29": {
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "value": "Sing (The Carpenters song)",
+                "type": "literal"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#altLabel": [
+            {
+                "value": "Sing (The Carpenters song)",
+                "type": "literal"
+            }
+        ],
+        "http://purl.org/dc/elements/1.1/description": [
+            {
+                "value": "\"Sing\" is a popular song created for Sesame Street that gained popularity when performed by The Carpenters who made it a #3 hit on the Billboard Hot 100 Charts in 1973. It has become one of the most performed songs on Sesame Street, sung in English, Spanish, and sign language. \"Sing\" was written by Joe Raposo, the staff songwriter for the popular children's TV show Sesame Street.",
+                "type": "literal"
+            }
+        ],
+        "http://xmlns.com/foaf/0.1/depiction": [
+            {
+                "value": "http://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Sing.jpg/200px-Sing.jpg",
+                "type": "literal"
+            }
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            {
+                "value": "http://dbpedia.org/ontology/Single",
+                "type": "uri"
+            },
+            {
+                "value": "http://www.freebase.com/schema/music/composition",
+                "type": "uri"
+            },
+            {
+                "value": "http://www.freebase.com/schema/music",
+                "type": "uri"
+            }
+        ]
+    },
+    "http://dbpedia.org/ontology/Single": {
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "value": "Single",
+                "type": "uri"
+            }
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            {
+                "value": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "type": "uri"
+            }
+        ]
+    },
+    "http://www.freebase.com/schema/music/composition": {
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "value": "composition",
+                "type": "uri"
+            }
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            {
+                "value": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "type": "uri"
+            }
+        ]
+    },
+    "http://dbpedia.org/resource/1997_in_music": {
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "value": "1997 in music",
+                "type": "literal"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#altLabel": [
+            {
+                "value": "1997 in music",
+                "type": "literal"
+            }
+        ],
+        "http://purl.org/dc/elements/1.1/description": [
+            {
+                "value": "List of years in music … 1987 • 1988 • 1989 • 1990 • 1991 • 1992 • 1993 • 1994 • 1995 • 1996 – 1997 – 1998 • 1999 • 2000 • 2001 • 2002 • 2003 • 2004 • 2005 • 2006 • 2007 … Related time period or subjects … 1994 • 1995 • 1996 – 1997 – 1998 • 1999 • 2000 …… 1960s • 1970s • 1980s – 1990s – 2000s • 2010s • 2020s … … 19th century – 20th century Art Archaeology Architecture Literature Music Science more This is a list of notable events in music that took place in the year 1997.",
+                "type": "literal"
+            }
+        ]
+    },
+    "http://dbpedia.org/resource/Frank_Sinatra,_Jr.": {
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "value": "Frank Sinatra, Jr.",
+                "type": "literal"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#altLabel": [
+            {
+                "value": "Frank Sinatra, Jr.",
+                "type": "literal"
+            }
+        ],
+        "http://purl.org/dc/elements/1.1/description": [
+            {
+                "value": "Franklin Wayne Sinatra (born January 10, 1944), professionally known as Frank Sinatra, Jr. , is an American singer, songwriter and conductor. Frank Jr. is the son of famed musician and actor Frank Sinatra (born \"Francis\") and Nancy Barbato Sinatra, his first wife. He is the younger brother of singer and actress Nancy Sinatra, and the older brother of television producer Tina Sinatra. In 1963, at the age of 19, Sinatra was kidnapped and released two days later after payment of a ransom.",
+                "type": "literal"
+            }
+        ],
+        "http://xmlns.com/foaf/0.1/depiction": [
+            {
+                "value": "http://upload.wikimedia.org/wikipedia/commons/thumb/1/14/FrankSinatraJrByPhilKonstantin.jpg/200px-FrankSinatraJrByPhilKonstantin.jpg",
+                "type": "literal"
+            }
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            {
+                "value": "http://dbpedia.org/ontology/MusicalArtist",
+                "type": "uri"
+            },
+            {
+                "value": "http://dbpedia.org/ontology/Artist",
+                "type": "uri"
+            },
+            {
+                "value": "http://dbpedia.org/ontology/Person",
+                "type": "uri"
+            },
+            {
+                "value": "http://schema.org/Person",
+                "type": "uri"
+            },
+            {
+                "value": "http://schema.org/MusicGroup",
+                "type": "uri"
+            },
+            {
+                "value": "http://www.freebase.com/schema/film/person_or_entity_appearing_in_film",
+                "type": "uri"
+            },
+            {
+                "value": "http://www.freebase.com/schema/film",
+                "type": "uri"
+            },
+            {
+                "value": "http://www.freebase.com/schema/film/actor",
+                "type": "uri"
+            },
+            {
+                "value": "http://www.freebase.com/schema/tv/tv_actor",
+                "type": "uri"
+            },
+            {
+                "value": "http://www.freebase.com/schema/tv",
+                "type": "uri"
+            },
+            {
+                "value": "http://www.freebase.com/schema/people/person",
+                "type": "uri"
+            },
+            {
+                "value": "http://www.freebase.com/schema/people",
+                "type": "uri"
+            },
+            {
+                "value": "http://www.freebase.com/schema/music/artist",
+                "type": "uri"
+            },
+            {
+                "value": "http://www.freebase.com/schema/music",
+                "type": "uri"
+            },
+            {
+                "value": "http://www.freebase.com/schema/music/group_member",
+                "type": "uri"
+            }
+        ]
+    },
+    "http://dbpedia.org/ontology/MusicalArtist": {
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "value": "MusicalArtist",
+                "type": "uri"
+            }
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            {
+                "value": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "type": "uri"
+            }
+        ]
+    },
+    "http://dbpedia.org/ontology/Artist": {
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "value": "Artist",
+                "type": "uri"
+            }
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            {
+                "value": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "type": "uri"
+            }
+        ]
+    },
+    "http://schema.org/MusicGroup": {
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "value": "MusicGroup",
+                "type": "uri"
+            }
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            {
+                "value": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "type": "uri"
+            }
+        ]
+    },
+    "http://www.freebase.com/schema/film/actor": {
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "value": "actor",
+                "type": "uri"
+            }
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            {
+                "value": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "type": "uri"
+            }
+        ]
+    },
+    "http://www.freebase.com/schema/music/group_member": {
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "value": "group_member",
+                "type": "uri"
+            }
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            {
+                "value": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "type": "uri"
+            }
+        ]
+    },
+    "http://www.semlibproject.eu/vocab/text-fragment": {
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            {
+                "value": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "type": "uri"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "value": "Page fragment",
+                "type": "literal"
+            }
+        ]
+    },
+    "http://www.semlibproject.eu/vocab/page": {
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            {
+                "value": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "type": "uri"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "value": "Page",
+                "type": "literal"
+            }
+        ]
+    },
+    "http://www.semlibproject.eu/vocab/relations/hasComment": {
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            {
+                "value": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "type": "uri"
+            },
+            {
+                "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                "type": "uri"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "value": "has comment",
+                "type": "literal"
+            }
+        ]
+    },
+    "http://www.holygoat.co.uk/owl/redwood/0.1/tags/hasTag": {
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            {
+                "value": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "type": "uri"
+            },
+            {
+                "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                "type": "uri"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "value": "has tag",
+                "type": "literal"
+            }
+        ]
+    }
+}

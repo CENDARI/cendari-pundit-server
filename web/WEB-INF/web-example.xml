@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+    
+    
+    <!--
+        Session Configuration Section
+    -->
+    <session-config>
+        <session-timeout>60</session-timeout>
+    </session-config>
+    
+    
+    <!-- 
+        Welcome File Configuration Section
+    -->
+    <welcome-file-list>
+        <welcome-file>index.jsp</welcome-file>
+        <welcome-file>index.html</welcome-file>
+        <welcome-file>index.htm</welcome-file>
+    </welcome-file-list>
+    
+    
+    <!--
+        Main Context Listener
+    -->
+    <listener>
+        <listener-class>eu.semlibproject.annotationserver.MainContextListener</listener-class>
+    </listener>
+
+    
+    
+    <!--
+        REST APIs Servlet Configuration Section
+    -->
+    <servlet>
+        <servlet-name>AnnotationServerAPIs</servlet-name>
+        <servlet-class>com.sun.jersey.spi.container.servlet.ServletContainer</servlet-class>
+        <!-- This is necessary to disable the autogeneration of WADL in order to avoid problems with CORS -->
+        <init-param>
+            <param-name>com.sun.jersey.config.feature.DisableWADL</param-name>
+            <param-value>true</param-value>
+        </init-param>
+        <init-param>
+            <param-name>com.sun.jersey.config.property.packages</param-name>
+            <param-value>eu.semlibproject.annotationserver.restapis</param-value>
+        </init-param>
+        <load-on-startup>1</load-on-startup>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AnnotationServerAPIs</servlet-name>
+        <url-pattern>/api/*</url-pattern>
+    </servlet-mapping>
+    
+    
+    <!--
+        AnnotationServer Parameters Configuration
+    -->    
+    <context-param>
+        <description>HASH algorithm used for computind resource ID. Possible value: CRC32 (default, shorter ID), MD5, SHA1</description>
+        <param-name>eu.semlibproject.annotationserver.config.hash</param-name>
+        <param-value>CRC32</param-value>
+    </context-param>
+    <context-param>
+        <description>The class file that implements the RDF Repository</description>
+        <param-name>eu.semlibproject.annotationserver.config.rdfrepositoryclass</param-name>
+        <param-value>eu.semlibproject.annotationserver.repository.SesameRepository</param-value>
+    </context-param>
+    <context-param>
+        <description>The class file that implements the Relational Data Repository</description>
+        <param-name>eu.semlibproject.annotationserver.config.datarepositoryclass</param-name>
+        <param-value>eu.semlibproject.annotationserver.repository.MySqlRepository</param-value>
+    </context-param>
+    <context-param>  
+        <description>The class file that implements the main Permssion Manager</description>
+        <param-name>eu.semlibproject.annotationserver.config.securitymanagerclass</param-name>
+        <param-value>eu.semlibproject.annotationserver.security.DefaultPermissionManager</param-value>
+    </context-param>
+    <context-param>
+        <description>Connection timeout for Proxy API (in seconds)</description>
+        <param-name>eu.semlibproject.annotationserver.config.services.proxy.timeout</param-name>
+        <param-value>20</param-value>
+    </context-param>
+    <context-param>
+        <description>Supported MIME-TYPE for Proxy API (accepted MIME-TYPE). Comma separate values</description>
+        <param-name>eu.semlibproject.annotationserver.config.services.proxy.mimetypes</param-name>
+        <param-value>text/plain,application/json,application/rdf+xml,text/rdf+n3,application/xml,application/html+xml,text/xml,application/sparql-results+xml,application/sparql-results+json</param-value>
+    </context-param>
+    <context-param>
+        <description>New Notebook by defult is set to public (1) or private (0)</description>
+        <param-name>eu.semlibproject.annotationserver.config.notebooks.defaultStatus</param-name>
+        <param-value>1</param-value>
+    </context-param>
+    
+    <!--
+        Mail SMTP configuration
+    -->
+    <context-param>
+        <description>Mail Smtp Host</description>
+        <param-name>eu.semlibproject.annotationserver.config.mail.smtp.host</param-name>
+        <param-value>smtp.gmail.com</param-value>
+    </context-param>
+    <context-param>
+        <description>Mail Smtp Port</description>
+        <param-name>eu.semlibproject.annotationserver.config.mail.smtp.port</param-name>
+        <param-value>587</param-value>
+    </context-param>
+     <context-param>
+        <description>Mail Smtp Auth</description>
+        <param-name>eu.semlibproject.annotationserver.config.mail.smtp.auth</param-name>
+        <param-value>true</param-value>
+    </context-param>
+     <context-param>
+        <description>Mail Smtp User</description>
+        <param-name>eu.semlibproject.annotationserver.config.mail.smtp.user</param-name>
+        <param-value>me@gmail.com</param-value>
+    </context-param>
+    <context-param>
+        <description>Mail Smtp Password</description>
+        <param-name>eu.semlibproject.annotationserver.config.mail.smtp.password</param-name>
+        <param-value>password</param-value>
+    </context-param>
+    
+    
+    <!--
+        AnnotationServer Storage configuration
+    -->
+    <context-param>
+        <description>Repository or DB URL</description>
+        <param-name>eu.semlibproject.annotationserver.config.db.url</param-name>
+        <param-value>http://localhost:8080/openrdf-sesame/</param-value>
+    </context-param>
+    <!-- Not used for Sesame
+    <context-param>
+        <description>Repository port</description>
+        <param-name>eu.semlibproject.annotationserver.config.db.port</param-name>
+        <param-name>3306</param-name>
+    </context-param>
+    -->
+    <context-param>
+        <description>Repository ID or DB name</description>
+        <param-name>eu.semlibproject.annotationserver.config.db.id</param-name>
+        <param-value>TEST2</param-value>
+    </context-param>
+    <context-param>
+        <description>Use authentication (yes or no)</description>
+        <param-name>eu.semlibproject.annotationserver.config.db.useauthentication</param-name>
+        <param-value>NO</param-value>
+    </context-param>
+    <context-param>
+        <description>Repository or DB username, parsed only if "Use authentication" is YES</description>
+        <param-name>eu.semlibproject.annotationserver.config.db.username</param-name>
+        <param-value/>
+    </context-param>
+    <context-param>
+        <description>Repository or DB password, parsed only if "Use authentication" is YES</description>
+        <param-name>eu.semlibproject.annotationserver.config.db.password</param-name>
+        <param-value/>
+    </context-param>
+    
+    
+    <!--
+        Reference for additional storage.
+	The Annotation Server uses a RDBMS and Hibernate to store not RDF data	
+        IMPORTANT: do NOT change the database name! Database name MUST be: semlibStorage
+    -->
+    <context-param>
+        <description>Hibernate RDBMS Dialect</description>
+        <param-name>eu.semlibproject.annotationserver.config.rdbms.hibernatedialect</param-name>
+        <param-value>org.hibernate.dialect.MySQLDialect</param-value>
+    </context-param>
+    <context-param>
+        <description>RDBMS connection driver</description>
+        <param-name>eu.semlibproject.annotationserver.config.rdbms.driver</param-name>
+        <param-value>com.mysql.jdbc.Driver</param-value>
+    </context-param>
+    <context-param>
+        <description>RDBMS connection url</description>
+        <param-name>eu.semlibproject.annotationserver.config.rdbms.connectionurl</param-name>
+        <param-value>jdbc:mysql://localhost:3306/semlibStorage?useUnicode=true&amp;characterEncoding=utf8&amp;autoReconnect=true</param-value>
+    </context-param>
+    <context-param>
+        <description>RDBMS username</description>
+        <param-name>eu.semlibproject.annotationserver.config.rdbms.username</param-name>
+        <param-value>semlibAs</param-value>
+    </context-param>
+    <context-param>
+        <description>RDBMS password</description>
+        <param-name>eu.semlibproject.annotationserver.config.rdbms.password</param-name>
+        <param-value>PASSWORD</param-value>
+    </context-param>
+
+    
+    
+    <!--
+        CORS Configuration Section
+    -->    
+    <filter>
+        <filter-name>CORSFilter</filter-name>
+        <filter-class>eu.semlibproject.annotationserver.filters.CORSFilter</filter-class>
+        <init-param>
+            <description>Enable or disable the CORSFilter. Value: YES|NO</description>
+            <param-name>eu.semlibproject.annotationserver.config.cors.enabled</param-name>
+            <param-value>yes</param-value>
+        </init-param>
+        <init-param>
+            <description>Allowed origin for CORSFilter. All origin: *</description>
+            <param-name>eu.semlibproject.annotationserver.config.cors.allowOrigin</param-name>
+            <param-value>*</param-value>
+        </init-param>
+        <init-param>
+            <description>Supported HTTP methods for CORS filter (comma separated values)</description>
+            <param-name>eu.semlibproject.annotationserver.config.cors.supportedMethods</param-name>
+            <param-value>HEAD, GET, POST, PUT, DELETE, OPTIONS</param-value>
+        </init-param>
+        <init-param>
+            <description>Supported HTTP headers for CORS filter (comma separated values)</description>
+            <param-name>eu.semlibproject.annotationserver.config.cors.supportedHeaders</param-name>
+            <param-value>Content-Type, X-Requested-With, Accept</param-value>
+        </init-param>
+        <init-param>
+            <description>Supported credential for CORSFilter. Value: YES|NO</description>
+            <param-name>eu.semlibproject.annotationserver.config.cors.supportsCredentials</param-name>
+            <param-value>yes</param-value>
+        </init-param>
+    </filter>
+    
+    
+    <!--
+        Authentication filters section
+    -->
+    <filter>
+        <filter-name>AuthenticationFilter</filter-name>
+        <filter-class>eu.semlibproject.annotationserver.filters.AuthFilter</filter-class>
+        <init-param>
+            <description>Enable or disable the authentication filter. Value: YES|NO</description>
+            <param-name>eu.semlibproject.annotationserver.config.authentication.enabled</param-name>
+            <param-value>YES</param-value>
+        </init-param>
+        <init-param>
+            <description>Token valid for X seconds</description>
+            <param-name>eu.semlibproject.annotationserver.config.authentication.tokenTime</param-name>
+            <param-value>1800</param-value>
+        </init-param>
+        <init-param>
+            <description>Path to the login form (Absolute Path)</description>
+            <param-name>eu.semlibproject.annotationserver.config.loginform</param-name>
+            <param-value>http://metasound.dibet.univpm.it:8080/annotationserver/login.jsp</param-value>
+        </init-param>
+    </filter>
+    
+    
+    <!--
+        Filter mapping section
+    -->
+    <filter-mapping>
+        <filter-name>CORSFilter</filter-name>
+        <url-pattern>/api/*</url-pattern>
+    </filter-mapping>
+    <filter-mapping>
+        <filter-name>AuthenticationFilter</filter-name>
+        <url-pattern>/api/*</url-pattern>
+    </filter-mapping>
+    
+    
+    <!--
+        Authentication/Logout Servlet
+    -->
+    <servlet>
+        <servlet-name>OpenIDAuthentication</servlet-name>
+        <servlet-class>eu.semlibproject.annotationserver.servlets.OpenIDAuthentication</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>OpenIDAuthentication</servlet-name>
+        <url-pattern>/openidauthentication</url-pattern>
+    </servlet-mapping>
+</web-app>

@@ -1,0 +1,16 @@
+
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 25-set-2012 10.31.35 by Hibernate Tools 3.2.1.GA -->
+<hibernate-mapping>
+    <class name="eu.semlibproject.annotationserver.hibernate.Annotations" table="annotations" catalog="semlibStorage">
+        <id name="annotationid" type="string">
+            <column name="annotationid" length="40" />
+            <generator class="assigned" />
+        </id>
+        <many-to-one name="notebooks" class="eu.semlibproject.annotationserver.hibernate.Notebooks" fetch="select">
+            <column name="notebookid" length="40" not-null="true" />
+        </many-to-one>
+    </class>
+</hibernate-mapping>

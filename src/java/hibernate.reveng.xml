@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-reverse-engineering PUBLIC "-//Hibernate/Hibernate Reverse Engineering DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-reverse-engineering-3.0.dtd">
+<hibernate-reverse-engineering>
+  <schema-selection match-catalog="semlibStorage"/>
+  <table-filter match-name="currentnotebooks"/>
+  <table-filter match-name="annotations"/>
+  <table-filter match-name="activenotebooks"/>
+  <table-filter match-name="admins"/>
+  <table-filter match-name="permissions"/>
+  <table-filter match-name="notebooks"/>
+  <table-filter match-name="userdata"/>
+  <table-filter match-name="emails"/>
+</hibernate-reverse-engineering>

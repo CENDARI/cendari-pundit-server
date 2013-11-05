@@ -1,0 +1,18 @@
+{
+    "http://example.org/items1": {
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+        {
+            "value": "Test Label Items 1",
+            "type": "literal"
+        }
+        ]
+    },
+    "http://example.org/items2": {
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+        {
+            "value": "Test Label Items 2",
+            "type": "literal"
+        }
+        ]
+    }
+}

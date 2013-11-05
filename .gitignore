@@ -1,0 +1,15 @@
+# Ignore DS_store files
+.DS_Store
+
+# Ignore build directory and related files
+build/*
+build/**/*
+dist/*
+report/**/*
+
+test/tests_configuration.properties
+web/WEB-INF/web.xml
+/nbproject/genfiles.properties
+/nbproject/private/private.xml
+/nbproject/private/private.properties
+/nbproject/private

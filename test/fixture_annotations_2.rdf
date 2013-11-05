@@ -1,0 +1,14 @@
+<rdf:RDF 
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" 
+        xmlns:tags="http://www.holygoat.co.uk/owl/redwood/0.1/tags/">
+
+        <rdf:Description rdf:about="http://en.wikipedia.org/wiki/Steve_Jobs">
+            <tags:hasTag>CEO</tags:hasTag>
+            <tags:hasTag>Chairman</tags:hasTag>
+            <tags:hasTag>Apple</tags:hasTag>
+            <tags:hasTag>Saint</tags:hasTag>
+            <rdfs:comment>Wikipedia's page dedicated to Steven jobs</rdfs:comment>
+        </rdf:Description>
+
+</rdf:RDF>

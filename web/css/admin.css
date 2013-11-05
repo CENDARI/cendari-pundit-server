@@ -1,0 +1,266 @@
+
+html {
+  font-size: 100%;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+body {
+    padding-top: 30px;
+    font: 11px "Lucida Grande", Verdana, Arial, "Bitstream Vera Sans", sans-serif;
+}
+
+div.boxed {
+    margin-top:20px;
+    margin-left:8px;
+    padding:16px 16px 16px 16px;
+    font-weight:normal;
+    -moz-border-radius:11px;
+    -khtml-border-radius:11px;
+    -webkit-border-radius:11px;
+    border-radius:11px;
+    background:#fff;
+    border:1px solid #e5e5e5;
+    -moz-box-shadow:rgba(200,200,200,1) 0 4px 18px;
+    -webkit-box-shadow:rgba(200,200,200,1) 0 4px 18px;
+    -khtml-box-shadow:rgba(200,200,200,1) 0 4px 18px;
+    box-shadow:rgba(200,200,200,1) 0 4px 18px;
+}
+
+.button-primary {
+    font-family:"Lucida Grande",Verdana,Arial,"Bitstream Vera Sans",sans-serif;
+    padding:3px 10px;
+    border:none;
+    font-size:12px;
+    border-width:1px;
+    border-style:solid;
+    -moz-border-radius:11px;
+    -khtml-border-radius:11px;
+    -webkit-border-radius:11px;
+    border-radius:11px;
+    cursor:pointer;
+    text-decoration:none;
+    margin-top:-3px;
+}
+
+input.button-primary, 
+button.button-primary, 
+a.button-primary {
+	border-color:#fff;
+	font-weight:bold;
+	color:#fff;
+	background:#c0c0c0 url(../images/button-grad.png) repeat-x scroll left top;
+	text-shadow:rgba(0,0,0,0.3) 0 -1px 0;
+}
+
+input.button-primary:active,
+button.button-primary:active,
+a.button-primary:active {
+	background:#c0c0c0 url(../images/button-grad-active.png) 
+	repeat-x scroll left top;color:#eaeaea;
+}
+
+input.button-primary:hover, 
+button.button-primary:hover, 
+a.button-primary:hover, 
+a.button-primary:focus,
+a.button-primary:active { 
+	border-color:#888; color:#ffff8f;
+} 
+
+#login form p {
+    margin-bottom:0;
+}
+
+label {
+    color:#777;
+    font-size:13px;
+}
+
+form .submit, .alignright {
+    float:right;
+}
+
+form p {
+    margin-bottom:24px;
+}
+
+#login {
+    width:320px;    
+    margin:6em auto;   
+}
+
+#login_error, .message {
+    margin:0 0 16px 8px;
+    border-width:1px;
+    border-style:solid;
+    padding:12px;
+    -moz-border-radius:3px;
+    -khtml-border-radius:3px;
+    -webkit-border-radius:3px;
+    border-radius:3px;
+}
+
+body form .input {
+    font-size:24px;
+    width:97%;
+    padding:3px;
+    margin-top:2px;
+    margin-right:6px;
+    margin-bottom:16px;
+    border:1px solid #e5e5e5;
+    background:#fbfbfb;
+}
+
+input {
+    color:#555;
+}
+
+.clear{
+    clear:both;
+}
+
+.berror {
+    background-color: #ffebe8;
+    border-color: #c00;
+    margin: 80px 0 16px 8px;
+    border-width: 1px;
+    border-style: solid;
+    padding: 12px;
+    -moz-border-radius: 3px;
+    -khtml-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;    
+}
+
+.bok {
+    background-color: #cdffc3;
+    border-color: #0c0;
+    margin: 80px 0 16px 8px;
+    border-width: 1px;
+    border-style: solid;
+    padding: 12px;
+    -moz-border-radius: 3px;
+    -khtml-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;    
+}
+
+.nav{
+    padding-top:7px;
+    font-size:13px;
+}
+
+.nav li {
+    margin-left:30px
+}
+
+#main_content {    
+    width:750px;        
+    margin:4em auto;    
+    font-size:12px;
+}
+
+.pb15 {
+    padding-bottom: 15px;
+}
+
+.pb40 {
+    padding-bottom: 40px;
+}
+
+.mrgtop10 {
+    margin-top:10px
+}
+
+a.pageNavi, a.pageNavi:link, a.pageNavi:active, a.pageNavi:visited {
+    font-weight:bold;
+    text-decoration: none;
+    color:#000;
+}
+
+a.pageNavi:hover {
+    color:#ff5b02;
+    text-decoration: underline;
+}
+
+a.nl, a.nl:link, a.nl:active, a.nl:visited {
+    font-weight:bold;
+    color:#000;
+}
+
+a.nl:hover {
+    color:#777;
+}
+
+table.report {
+      
+}
+
+.adminTitle {
+    font-size:12px;
+}
+
+.center {
+    text-align:center;
+}
+
+.left {
+    text-align:left;
+}
+
+.w30 {
+    width:30px;
+}
+
+.w60 {
+    width:60px;
+}
+
+.w80 {
+    width:80px;
+}
+
+.w90 {
+    width:90px;
+}
+
+.w100 {
+    width:100px;
+}
+
+.w110 {
+    width:110px;
+}
+
+.w140 {
+    width:140px;
+}
+
+.w150 {
+    width:150px;
+}
+
+.w250 {
+    width:250px;
+}
+
+.w340 {
+    width:340px;
+}
+
+.borderB {
+    border-bottom:1px solid #c0c0c0;
+}
+
+.borderT {
+    border-top:1px solid #c0c0c0;
+}
+
+#pagination {
+    margin-top:10px
+}
+
+.lightGray {
+    background-color:#f0f0f0;
+}
